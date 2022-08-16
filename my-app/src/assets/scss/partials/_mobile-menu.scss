@@ -1,0 +1,109 @@
+
+.mobile-menu {    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: $primary;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transform: translateX(-100%);
+    @include transition;    
+    overflow-y: auto;
+    padding-left: 10%;
+    display: none;    
+    box-shadow: 0 0 10px #00000047;
+    @include media-max(767px){
+        display: flex;
+    }
+    .main-menu {
+        display: flex !important;
+        flex-direction: column;
+        gap: 3rem 0 !important;
+        .menu-items {
+            .menu-link {
+                color:$white;
+                font-size: 3rem;                
+                &:hover, &.active {
+                    color: $text-1;
+                }
+            }
+            .ctm-dd.cate-inn .dropdown-toggle {
+                color:$white;
+                font-size: 3rem;                
+            }
+        }
+
+    }
+}
+.mobile-menu {
+    .mobile-logo {
+        margin-bottom: 3rem;
+        display: block;
+    }
+    .close-btn {
+        color: $white;
+        font-size: 5rem;
+        right: 4rem;
+        top: 3rem;
+        position: absolute;
+        @include transition;
+        cursor: pointer;
+        &:hover {
+            color: $primary;
+        }
+    }
+    .navbar-nav .nav-link {        
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+        @include transition;
+        color: $white;
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.menu-icon {
+        // display: none;
+        color: $primary;
+        font-size: 5rem;
+        // position: absolute;
+        // right: 6rem;
+        // top: 6rem;  
+        display: none;
+        @include media-max(767px){
+            display: block;
+        }
+        @include media-max(450px){
+            font-size: 4rem;
+        }
+        @include media-max(375px){
+            font-size: 3.5rem;
+        }
+        cursor: pointer;
+        // @include medium-991{
+        //     display: block;
+        // }  
+}
+
+// right direction css
+
+.rtl {
+    .mobile-menu {
+        right: 0;
+        left: auto;
+        width: 100%;
+        transform: translateX(110%);
+        padding-left: 0;
+        padding-right: 10%;
+    }
+
+    .mobile-menu .close-btn {
+        right: auto;
+        left: 4rem;
+    }
+}

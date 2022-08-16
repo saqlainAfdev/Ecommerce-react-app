@@ -1,0 +1,51 @@
+.ctm-tabs {
+    gap: 3rem;
+    border-bottom:2px solid $primary;
+    @include media-max(450px){
+        border-bottom: 0;
+        flex-direction: column;
+    }
+    .nav-item {
+        flex:1;
+        .nav-link {
+            width: 100%;
+            border:1px solid $text-c;
+            background-color:$text-e;
+            @include flex-center;
+            border-bottom:0;   
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem; 
+            overflow: hidden;
+            height: 4.5rem;
+            @include Font(1.8rem,500,2.2rem,$text-a,$product-sans);  
+            text-transform: capitalize; 
+            @include transition;
+            @include media-max(450px){
+                border-bottom:1px solid $text-c;
+                border-radius: 1rem;
+            }
+
+            &:hover, &.active {
+                background-color: $primary;
+                border-color: $primary;
+                color: $white;
+            }     
+        }
+    }
+}
+
+.products-tabs {
+    gap: 0 4rem;
+    .nav-item {
+        .nav-link {
+            background-color: $white;
+            text-transform: capitalize;
+            @include Font(2.2rem,300,2.7rem,$gray-700,$product-sans);
+            @include transition;
+            padding: 0;
+            &:hover, &.active {
+                color: $primary;
+            }
+        }
+    }
+}

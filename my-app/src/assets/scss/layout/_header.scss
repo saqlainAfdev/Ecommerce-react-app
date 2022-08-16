@@ -1,0 +1,12 @@
+header {
+    height: 30rem;
+    background-color: $gray-100;    
+    @include flex-center;
+    margin-bottom: 5rem;
+    h1 {
+        text-transform: uppercase;
+        color: $black;
+        font-size: 6rem;
+        text-align: center;
+    }
+}

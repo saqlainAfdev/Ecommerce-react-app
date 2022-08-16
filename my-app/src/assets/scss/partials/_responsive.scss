@@ -1,0 +1,25 @@
+
+
+// max query
+
+@mixin media-max($width) {
+    @media (max-width:$width) {
+        @content;
+    }    
+}
+
+// min query
+
+@mixin media-min($width) {
+    @media (min-width:$width) {
+        @content;
+    }    
+}
+
+// min & max query
+
+@mixin media-both($min-width,$max-width) {
+    @media (min-width:$min-width) and (max-width:$max-width) {
+        @content;
+    }    
+}

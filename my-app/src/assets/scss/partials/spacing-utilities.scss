@@ -1,0 +1,555 @@
+
+
+$i:1;
+
+@for $i from 1 through 100 {
+    $numb: 0px  + $i#{!important};
+    
+    .p-#{$i}{
+        padding: $numb;
+    }
+    .pl-#{$i}{
+        padding-left: $numb;
+    }
+    .pr-#{$i}{
+        padding-right: $numb;
+    }
+    .pt-#{$i}{
+        padding-top: $numb;
+    }
+    .pb-#{$i}{
+        padding-bottom: $numb;
+    }
+    .px-#{$i}{
+        padding-left: $numb;
+        padding-right: $numb;
+    }
+    .py-#{$i}{
+        padding-top: $numb;
+        padding-bottom: $numb;
+    }
+    
+    .m-#{$i}{
+        margin: $numb;
+    }
+    .ml-#{$i}{
+        margin-left: $numb;
+    }
+    .mr-#{$i}{
+        margin-right: $numb;
+    }
+    .mt-#{$i}{
+        margin-top: $numb;
+    }
+    .mb-#{$i}{
+        margin-bottom: $numb;
+    }
+    .mx-#{$i}{
+        margin-left: $numb;
+        margin-right: $numb;
+    }
+    .my-#{$i}{
+        margin-top: $numb;
+        margin-bottom: $numb;
+    }    
+
+    .gx-#{$i}{
+        gap: 0 $numb;
+    }
+    .gy-#{$i}{
+        gap: $numb 0;
+    }
+    .gap-#{$i}{
+        gap: $numb;
+    }  
+    
+    @include media-min(1200px){
+        .p-xxl-#{$i}{
+            padding: $numb;
+        }
+        .pl-xxl-#{$i}{
+            padding-left: $numb;
+        }
+        .pr-xxl-#{$i}{
+            padding-right: $numb;
+        }
+        .pt-xxl-#{$i}{
+            padding-top: $numb;
+        }
+        .pb-xxl-#{$i}{
+            padding-bottom: $numb;
+        }
+        .px-xxl-#{$i}{
+            padding-left: $numb;
+            padding-right: $numb;
+        }
+        .py-xxl-#{$i}{
+            padding-top: $numb;
+            padding-bottom: $numb;
+        }
+        
+        .m-xxl-#{$i}{
+            margin: $numb;
+        }
+        .ml-xxl-#{$i}{
+            margin-left: $numb;
+        }
+        .mr-xxl-#{$i}{
+            margin-right: $numb;
+        }
+        .mt-xxl-#{$i}{
+            margin-top: $numb;
+        }
+        .mb-xxl-#{$i}{
+            margin-bottom: $numb;
+        }
+        .mx-xxl-#{$i}{
+            margin-left: $numb;
+            margin-right: $numb;
+        }
+        .my-xxl-#{$i}{
+            margin-top: $numb;
+            margin-bottom: $numb;
+        }    
+    
+        .gx-xxl-#{$i}{
+            gap: 0 $numb;
+        }
+        .gy-xxl-#{$i}{
+            gap: $numb 0;
+        }
+        .gap-xxl-#{$i}{
+            gap: $numb;
+        }
+    }
+    @include media-min(992px){
+        .p-xl-#{$i}{
+            padding: $numb;
+        }
+        .pl-xl-#{$i}{
+            padding-left: $numb;
+        }
+        .pr-xl-#{$i}{
+            padding-right: $numb;
+        }
+        .pt-xl-#{$i}{
+            padding-top: $numb;
+        }
+        .pb-xl-#{$i}{
+            padding-bottom: $numb;
+        }
+        .px-xl-#{$i}{
+            padding-left: $numb;
+            padding-right: $numb;
+        }
+        .py-xl-#{$i}{
+            padding-top: $numb;
+            padding-bottom: $numb;
+        }
+        
+        .m-xl-#{$i}{
+            margin: $numb;
+        }
+        .ml-xl-#{$i}{
+            margin-left: $numb;
+        }
+        .mr-xl-#{$i}{
+            margin-right: $numb;
+        }
+        .mt-xl-#{$i}{
+            margin-top: $numb;
+        }
+        .mb-xl-#{$i}{
+            margin-bottom: $numb;
+        }
+        .mx-xl-#{$i}{
+            margin-left: $numb;
+            margin-right: $numb;
+        }
+        .my-xl-#{$i}{
+            margin-top: $numb;
+            margin-bottom: $numb;
+        }    
+    
+        .gx-xl-#{$i}{
+            gap: 0 $numb;
+        }
+        .gy-xl-#{$i}{
+            gap: $numb 0;
+        }
+        .gap-xl-#{$i}{
+            gap: $numb;
+        } 
+    }
+    @include media-min(768px){
+        .p-lg-#{$i}{
+            padding: $numb;
+        }
+        .pl-lg-#{$i}{
+            padding-left: $numb;
+        }
+        .pr-lg-#{$i}{
+            padding-right: $numb;
+        }
+        .pt-lg-#{$i}{
+            padding-top: $numb;
+        }
+        .pb-lg-#{$i}{
+            padding-bottom: $numb;
+        }
+        .px-lg-#{$i}{
+            padding-left: $numb;
+            padding-right: $numb;
+        }
+        .py-lg-#{$i}{
+            padding-top: $numb;
+            padding-bottom: $numb;
+        }
+        
+        .m-lg-#{$i}{
+            margin: $numb;
+        }
+        .ml-lg-#{$i}{
+            margin-left: $numb;
+        }
+        .mr-lg-#{$i}{
+            margin-right: $numb;
+        }
+        .mt-lg-#{$i}{
+            margin-top: $numb;
+        }
+        .mb-lg-#{$i}{
+            margin-bottom: $numb;
+        }
+        .mx-lg-#{$i}{
+            margin-left: $numb;
+            margin-right: $numb;
+        }
+        .my-lg-#{$i}{
+            margin-top: $numb;
+            margin-bottom: $numb;
+        }    
+    
+        .gx-lg-#{$i}{
+            gap: 0 $numb;
+        }
+        .gy-lg-#{$i}{
+            gap: $numb 0;
+        }
+        .gap-lg-#{$i}{
+            gap: $numb;
+        }
+    }
+    @include media-min(576px){
+        .p-md-#{$i}{
+            padding: $numb;
+        }
+        .pl-md-#{$i}{
+            padding-left: $numb;
+        }
+        .pr-md-#{$i}{
+            padding-right: $numb;
+        }
+        .pt-md-#{$i}{
+            padding-top: $numb;
+        }
+        .pb-md-#{$i}{
+            padding-bottom: $numb;
+        }
+        .px-md-#{$i}{
+            padding-left: $numb;
+            padding-right: $numb;
+        }
+        .py-md-#{$i}{
+            padding-top: $numb;
+            padding-bottom: $numb;
+        }
+        
+        .m-md-#{$i}{
+            margin: $numb;
+        }
+        .ml-md-#{$i}{
+            margin-left: $numb;
+        }
+        .mr-md-#{$i}{
+            margin-right: $numb;
+        }
+        .mt-md-#{$i}{
+            margin-top: $numb;
+        }
+        .mb-md-#{$i}{
+            margin-bottom: $numb;
+        }
+        .mx-md-#{$i}{
+            margin-left: $numb;
+            margin-right: $numb;
+        }
+        .my-md-#{$i}{
+            margin-top: $numb;
+            margin-bottom: $numb;
+        }    
+    
+        .gx-md-#{$i}{
+            gap: 0 $numb;
+        }
+        .gy-md-#{$i}{
+            gap: $numb 0;
+        }
+        .gap-md-#{$i}{
+            gap: $numb;
+        } 
+    }
+    @include media-min(451px){
+        .p-sm-#{$i}{
+            padding: $numb;
+        }
+        .pl-sm-#{$i}{
+            padding-left: $numb;
+        }
+        .pr-sm-#{$i}{
+            padding-right: $numb;
+        }
+        .pt-sm-#{$i}{
+            padding-top: $numb;
+        }
+        .pb-sm-#{$i}{
+            padding-bottom: $numb;
+        }
+        .px-sm-#{$i}{
+            padding-left: $numb;
+            padding-right: $numb;
+        }
+        .py-sm-#{$i}{
+            padding-top: $numb;
+            padding-bottom: $numb;
+        }
+        
+        .m-sm-#{$i}{
+            margin: $numb;
+        }
+        .ml-sm-#{$i}{
+            margin-left: $numb;
+        }
+        .mr-sm-#{$i}{
+            margin-right: $numb;
+        }
+        .mt-sm-#{$i}{
+            margin-top: $numb;
+        }
+        .mb-sm-#{$i}{
+            margin-bottom: $numb;
+        }
+        .mx-sm-#{$i}{
+            margin-left: $numb;
+            margin-right: $numb;
+        }
+        .my-sm-#{$i}{
+            margin-top: $numb;
+            margin-bottom: $numb;
+        }    
+    
+        .gx-sm-#{$i}{
+            gap: 0 $numb;
+        }
+        .gy-sm-#{$i}{
+            gap: $numb 0;
+        }
+        .gap-sm-#{$i}{
+            gap: $numb;
+        }
+    }
+    @include media-max(450px){
+        .p-xsm-#{$i}{
+            padding: $numb;
+        }
+        .pl-xsm-#{$i}{
+            padding-left: $numb;
+        }
+        .pr-xsm-#{$i}{
+            padding-right: $numb;
+        }
+        .pt-xsm-#{$i}{
+            padding-top: $numb;
+        }
+        .pb-xsm-#{$i}{
+            padding-bottom: $numb;
+        }
+        .px-xsm-#{$i}{
+            padding-left: $numb;
+            padding-right: $numb;
+        }
+        .py-xsm-#{$i}{
+            padding-top: $numb;
+            padding-bottom: $numb;
+        }
+        
+        .m-xsm-#{$i}{
+            margin: $numb;
+        }
+        .ml-xsm-#{$i}{
+            margin-left: $numb;
+        }
+        .mr-xsm-#{$i}{
+            margin-right: $numb;
+        }
+        .mt-xsm-#{$i}{
+            margin-top: $numb;
+        }
+        .mb-xsm-#{$i}{
+            margin-bottom: $numb;
+        }
+        .mx-xsm-#{$i}{
+            margin-left: $numb;
+            margin-right: $numb;
+        }
+        .my-xsm-#{$i}{
+            margin-top: $numb;
+            margin-bottom: $numb;
+        }    
+    
+        .gx-xsm-#{$i}{
+            gap: 0 $numb;
+        }
+        .gy-xsm-#{$i}{
+            gap: $numb 0;
+        }
+        .gap-xsm-#{$i}{
+            gap: $numb;
+        }
+    }
+
+    // for right direction classes
+
+    .rtl {
+        .pl-#{$i}{
+            padding-left: 0 !important;
+            padding-right: $numb;
+        }
+        .pr-#{$i}{
+            padding-right: 0 !important;
+            padding-left: $numb;
+        }
+        .ml-#{$i}{
+            margin-left: 0 !important;
+            margin-right: $numb;
+        }
+        .mr-#{$i}{
+            margin-right: 0 !important;
+            margin-left: $numb;
+        }
+        @include media-min(1200px){
+            .pl-xxl-#{$i}{
+                padding-left: 0 !important;
+                padding-right: $numb;
+            }
+            .pr-xxl-#{$i}{
+                padding-right: 0 !important;
+                padding-left: $numb;
+            }
+            .ml-xxl-#{$i}{
+                margin-left: 0 !important;
+                margin-right: $numb;
+            }
+            .mr-xxl-#{$i}{
+                margin-right: 0 !important;
+                margin-left: $numb;
+            }
+        }
+        @include media-min(992px){
+            .pl-xl-#{$i}{
+                padding-left: 0 !important;
+                padding-right: $numb;
+            }
+            .pr-xl-#{$i}{
+                padding-right: 0 !important;
+                padding-left: $numb;
+            }
+            .ml-xl-#{$i}{
+                margin-left: 0 !important;
+                margin-right: $numb;
+            }
+            .mr-xl-#{$i}{
+                margin-right: 0 !important;
+                margin-left: $numb;
+            }
+
+        }
+        @include media-min(768px){
+            .pl-lg-#{$i}{
+                padding-left: 0 !important;
+                padding-right: $numb;
+            }
+            .pr-lg-#{$i}{
+                padding-right: 0 !important;
+                padding-left: $numb;
+            }
+            .ml-lg-#{$i}{
+                margin-left: 0 !important;
+                margin-right: $numb;
+            }
+            .mr-lg-#{$i}{
+                margin-right: 0 !important;
+                margin-left: $numb;
+            }
+
+        }
+        @include media-min(576px){
+            .pl-md-#{$i}{
+                padding-left: 0 !important;
+                padding-right: $numb;
+            }
+            .pr-md-#{$i}{
+                padding-right: 0 !important;
+                padding-left: $numb;
+            }
+            .ml-md-#{$i}{
+                margin-left: 0 !important;
+                margin-right: $numb;
+            }
+            .mr-md-#{$i}{
+                margin-right: 0 !important;
+                margin-left: $numb;
+            }
+
+        }
+        @include media-min(451px){
+            .pl-sm-#{$i}{
+                padding-left: 0 !important;
+                padding-right: $numb;
+            }
+            .pr-sm-#{$i}{
+                padding-right: 0 !important;
+                padding-left: $numb;
+            }
+            .ml-sm-#{$i}{
+                margin-left: 0 !important;
+                margin-right: $numb;
+            }
+            .mr-sm-#{$i}{
+                margin-right: 0 !important;
+                margin-left: $numb;
+            }
+
+        }
+        @include media-max(450px){
+            .pl-xsm-#{$i}{
+                padding-left: 0 !important;
+                padding-right: $numb;
+            }
+            .pr-xsm-#{$i}{
+                padding-right: 0 !important;
+                padding-left: $numb;
+            }
+            .ml-xsm-#{$i}{
+                margin-left: 0 !important;
+                margin-right: $numb;
+            }
+            .mr-xsm-#{$i}{
+                margin-right: 0 !important;
+                margin-left: $numb;
+            }
+
+        }
+    }
+    
+}
