@@ -1,5 +1,0 @@
-@mixin rtl {
-    @media (max-width: 999999px) {
-      @content;
-    }
-  }
