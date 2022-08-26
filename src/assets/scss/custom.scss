@@ -1,25 +1,24 @@
-
 /* P L U G I N S */
 
 @import "../plugins/bootstrap/scss/bootstrap";
-
 
 /* P A R T I A L S */
 
 @import "partials/variables";
 @import "partials/mixins";
-@import "partials/responsive"; 
+@import "partials/responsive";
 @import "partials/spacing-utilities";
 @import "partials/width-utilities";
 @import "partials/weight-utilities";
-  
- /*M O D U L E S*/
- 
-@import "modules/style";     
+@import "partials/brand";
+
+/*M O D U L E S*/
+
+@import "modules/style";
 
 /*L A Y O U T*/
 
-@import "layout/header"; 
-@import "layout/footer";   
-   
+@import "layout/header";
+@import "layout/footer";
+
 /*P A G E S*/

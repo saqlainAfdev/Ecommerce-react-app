@@ -1,13 +1,14 @@
+
+
 const Footer = () => {
-    return ( 
+    const classes = useStyles();
+    return (
         <>
             <footer>
-                <h1 className="footer-title">
-                    this is footer
-                </h1>
+                <h1>USman</h1>
             </footer>
         </>
-     );
+    );
 }
- 
+
 export default Footer;

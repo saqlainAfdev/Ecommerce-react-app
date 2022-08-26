@@ -1,12 +1,12 @@
 footer {
-    height: 30rem;
-    background-color: $black;
-    
+    height: 54.2rem;
+    background-color: $white;
+
     @include flex-center;
-    margin-bottom: 5rem;
+    // margin-bottom: 5rem;
     h1 {
         text-transform: uppercase;
-        color: $white;
+        color: $black;
         font-size: 6rem;
         text-align: center;
     }
