@@ -90,17 +90,16 @@ Flex Properties */
     justify-content: center;
     align-items: center;
 }
-@mixin flex-box($inline-or-flex, $direcrion, $X-value, $Y-value) {
+@mixin flex-box($inline-or-flex, $Y-value, $X-value) {
     display: $inline-or-flex;
-    flex-direction: $direcrion;
+    // flex-direction: $direcrion;
     justify-content: $X-value;
     align-items: $Y-value;
 }
 
-@mixin Font($size, $weight, $line, $color, $family) {
+@mixin Font($weight, $size, $line, $color) {
     font-size: $size;
     font-weight: $weight;
-    font-family: $family;
     line-height: $line;
     color: $color;
 }
@@ -119,24 +118,24 @@ Flex Properties */
     max-width: $width;
     height: $height;
     width: 100%;
-    overflow: hidden;    
+    overflow: hidden;
     border-radius: $radius;
     position: $position;
 }
-@mixin card-noflex($width, $height, $radius, $position) {    
+@mixin card-noflex($width, $height, $radius, $position) {
     max-width: $width;
     height: $height;
     width: 100%;
-    overflow: hidden;    
+    overflow: hidden;
     border-radius: $radius;
     position: $position;
 }
 
-@mixin img-placeholder($obj-fit,$obj-pos) {
-    height: 100%;    
+@mixin img-placeholder($obj-fit, $obj-pos) {
+    height: 100%;
     width: 100%;
     background-color: $gray-100;
-    object-fit: $obj-fit;    
+    object-fit: $obj-fit;
     object-position: $obj-pos;
 }
 
@@ -156,15 +155,15 @@ Flex Properties */
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-@mixin position($pos,$left,$right,$top,$bottom,$tran-x,$tran-y) {
+@mixin position($pos, $left, $right, $top, $bottom, $tran-x, $tran-y) {
     position: $pos;
     left: $left;
     right: $right;
-    top:$top;
-    bottom:$bottom;
+    top: $top;
+    bottom: $bottom;
     transform: translateX($tran-x);
     transform: translateY($tran-y);
 }
@@ -177,22 +176,21 @@ Flex Properties */
 
 @mixin scroll-bar-tp {
     /* width */
-::-webkit-scrollbar {
-    width: 0;
-    background-color: transparent;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {    
-    border-radius: 5px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: transparent; 
-    border-radius: 5px;
-  }
-    
+    ::-webkit-scrollbar {
+        width: 0;
+        background-color: transparent;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 5px;
+    }
 }
 
 @mixin multiline-dots($lines) {
@@ -204,21 +202,21 @@ Flex Properties */
 
 @mixin primary-scroll {
     /* width */
-::-webkit-scrollbar {
-    width: 7px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background-color: $gray-500; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background-color: $primary;
-    border-radius: 10px;
-  }  
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background-color: $gray-500;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background-color: $primary;
+        border-radius: 10px;
+    }
 }
 
 @mixin slider-reset {

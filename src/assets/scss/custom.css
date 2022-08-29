@@ -78140,6 +78140,43 @@ Flex Properties */
   margin: 3.8rem 0rem;
 }
 
+.bread-ul li {
+  position: relative;
+}
+.bread-ul li a {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+  color: #000;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+}
+.bread-ul li a.active {
+  color: #bd8448;
+}
+.bread-ul li a:hover {
+  color: #bd8448;
+}
+.bread-ul li::after {
+  content: "";
+  position: absolute;
+  right: -4.5rem;
+  height: 1px;
+  width: 3rem;
+  background: #ccc;
+  top: 50%;
+}
+.bread-ul li:last-child::after {
+  display: none;
+}
+
+.auth-space {
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+}
+
 /*M O D U L E S*/
 /*======================================== 
 Custom  
@@ -78175,11 +78212,11 @@ img {
 }
 
 a {
-  color: #FFFF01;
+  color: #ffff01;
   text-decoration: none;
 }
 a:hover, a:active, a:focus {
-  color: #FFBB00;
+  color: #bd8448;
   text-decoration: none;
 }
 
@@ -78208,12 +78245,12 @@ button:focus {
 }
 
 .primary-colorBg {
-  background-color: #FFBB00;
+  background-color: #bd8448;
   color: #fff;
 }
 
 .primary-color {
-  color: #FFBB00;
+  color: #bd8448;
 }
 
 html {
@@ -78319,6 +78356,40 @@ header h1 {
 footer {
   height: 54.2rem;
   background-color: #fff;
+  padding-top: 10rem;
+}
+footer .info .title {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 4.3rem;
+  color: #000;
+  margin-bottom: 3rem;
+}
+footer .info p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #000;
+  margin-bottom: 3rem;
+}
+footer .info input {
+  max-width: 100%;
+  width: 100%;
+  background-color: 1px solid #f2f2f2;
+  height: 5.5rem;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  color: #666;
+  outline: none;
+  padding-left: 1.5rem;
+}
+footer .info .Sub-btn {
+  max-width: 17.4rem;
+  width: 100%;
+  height: 5.5rem;
+  background: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78328,12 +78399,86 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #fff;
 }
-footer h1 {
-  text-transform: uppercase;
+footer .quick .title {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 3.3rem;
   color: #000;
-  font-size: 6rem;
-  text-align: center;
+  margin-bottom: 3rem;
+}
+footer .quick .socials a {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+}
+footer .quick .socials a:hover {
+  color: #bd8448;
+}
+footer .copy-right-sec {
+  height: 13.6rem;
+  border-top: 1px solid #ddd;
+}
+footer .copy-right-sec p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #000;
+}
+footer .copy-right-sec p a {
+  color: #bd8448;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+}
+footer .copy-right-sec .socials-icons a {
+  width: 50px;
+  height: 50px;
+  background: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+}
+footer .copy-right-sec .socials-icons a:hover {
+  background-color: #bd8448;
+}
+footer .copy-right-sec .socials-icons a:hover svg path {
+  fill: #fff;
+}
+
+.container {
+  max-width: 163rem;
 }
 
 /*P A G E S*/
