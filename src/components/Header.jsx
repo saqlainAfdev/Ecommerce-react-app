@@ -142,7 +142,7 @@ const top100Films = [
     { label: 'The Sting', year: 1973 },
     { label: '2001: A Space Odyssey', year: 1968 },
     { label: "Singin' in the Rain", year: 1952 },
-    { label: 'Toy Story', year: 1995 },
+    { label: 'Toy Story', year: 1965 },
     { label: 'Bicycle Thieves', year: 1948 },
     { label: 'The Kid', year: 1921 },
     { label: 'Inglourious Basterds', year: 2009 },
