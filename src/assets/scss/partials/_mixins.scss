@@ -97,12 +97,13 @@ Flex Properties */
     align-items: $Y-value;
 }
 
-@mixin Font($size, $weight, $line, $color, $family) {
+@mixin Font($size, $weight, $line,$transdorm, $color, $family) {
     font-size: $size;
     font-weight: $weight;
     font-family: $family;
     line-height: $line;
     color: $color;
+    text-transform: $transdorm;
 }
 @mixin bg-img($bg-size, $bg-position, $bg-repeat) {
     background-position: $bg-position;

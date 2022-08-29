@@ -8,10 +8,7 @@ Custom
 .clearfix {
     clear: both;
 }
-body{
-    background-color: #fff;
-    margin: 0;
-}
+
 img {
     -webkit-user-drag: none;
     -khtml-user-drag: none;
@@ -80,12 +77,13 @@ html {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0 !important;
+  padding: 0 !important;
   width: 100%;
   height: auto;
-  font-family: 'Product Sans' !important;
+  font-family: 'Rubik', sans-serif !important;
   overflow-x: hidden;
+  background:$body-bg;
 }
 
 
@@ -99,8 +97,12 @@ body {
 }
 
   .container{
+    @include media-min(1630px){
+      max-width: 1630px;
+      padding-inline: 8rem;
+    }
     @include media-min(1200px){
-      max-width: 1170px;
+      max-width: 1170px;      
     }
   }
   .container-max {
@@ -128,6 +130,10 @@ body {
       max-width: 100%;
     }
   }
+
+  // rubik font
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 
   // open sans font
 
