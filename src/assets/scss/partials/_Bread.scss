@@ -1,0 +1,29 @@
+.bread-ul {
+    li {
+        position: relative;
+        a {
+            @include Font(300, 1.8rem, 2.6rem, $black);
+            @include transition;
+            &.active {
+                color: $primary;
+            }
+            &:hover {
+                color: $primary;
+            }
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            right: -4.5rem;
+            height: 1px;
+            width: 3rem;
+            background: #ccc;
+            top: 50%;
+        }
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

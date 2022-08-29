@@ -1,6 +1,6 @@
-
 /*++++++++++++++++++++++ File Name : Varialbles +++++++++++++++++++++*/
 
+<<<<<<< HEAD
 $primary: #BD8448;
 $secondary: #FFFF01;
 $black:#000;
@@ -10,26 +10,37 @@ $color-d :#dddddd;
 $color-e :#eeeeee;
 $color-c :#cccccc;
 $body-bg: #F2F2F2;
+=======
+$primary: #bd8448;
+$secondary: #ffff01;
+$black: #000;
+$white: #fff;
+$color-6: #666;
+$color-d: #dddddd;
+$color-e: #eeeeee;
+$color-c: #cccccc;
+$body-bg: #fff;
+>>>>>>> ecf4e13a117a1e22223d2ddbed79691311403712
 $gray-100: #f1f1f1;
 $gray-200: #f2f2f2;
-$gray-300: #F3F3F3;
+$gray-300: #f3f3f3;
 $gray-500: #f5f5f5;
-$gray-400: #F4F4F4;
+$gray-400: #f4f4f4;
 $gray-600: #666666;
 $gray-700: #777777;
 $gray-800: #888888;
-$gray-900:#999;
-$text-1:#111111;
+$gray-900: #999;
+$text-1: #111111;
 $text-2: #222;
 $text-3: #333;
 $text-a: #aaa;
 $text-c: #ccc;
-$text-d:#ddd;
-$text-e:#eee;
-$E6:#E6E6E6;
-$F9:#f9f9f9;
+$text-d: #ddd;
+$text-e: #eee;
+$E6: #e6e6e6;
+$F9: #f9f9f9;
 
-$gradient-1: linear-gradient(to right,#DEA918,#FFBB00);
+$gradient-1: linear-gradient(to right, #dea918, #ffbb00);
 
 // FONT WEIGHT VARIABLES
 
@@ -40,19 +51,19 @@ $font-semiBold: 600;
 $font-bold: bold;
 $font-Xbold: 900;
 
-
 /*F O N T  F A M I L I E S*/
 
+<<<<<<< HEAD
 $product-sans: 'Product Sans';
 $montserrat: 'Montserrat', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
 $roboto:'Roboto', sans-serif;
 $Rubik:'Rubik', sans-serif;
+=======
+$product-sans: "Product Sans";
+$montserrat: "Montserrat", sans-serif;
+$open-sans: "Open Sans", sans-serif;
+$roboto: "Roboto", sans-serif;
+>>>>>>> ecf4e13a117a1e22223d2ddbed79691311403712
 
 /* Comment Variable */
-
-
-
-
-
- 
